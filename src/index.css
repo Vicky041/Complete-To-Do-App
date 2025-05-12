@@ -11,8 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-<<<<<<< HEAD
-=======
+
+
+
 
 /* Media Query for screens 1024px and below */
 @media screen and (max-width: 1024px) {
@@ -27,4 +28,5 @@ code {
     font-size: 14px;
   }
 }
->>>>>>> e41b4c5 (Adding media query)
+
+
