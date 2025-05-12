@@ -51,9 +51,6 @@ h1 {
   font-family: monospace;
 }
 
-
-<<<<<<< HEAD
-=======
 /* Media Query for screens 1024px and below */
 @media screen and (max-width: 1024px) {
   input {
@@ -101,8 +98,50 @@ h1 {
   }
 }
 
->>>>>>> e41b4c5 (Adding media query)
+/* Media Query for screens 400px and below */
+@media screen and (max-width: 400px) {
+  input {
+    width: 180px;
+    font-size: 13px;
+  }
 
+  button {
+    width: 70px;
+    height: 35px;
+    font-size: 11px;
+  }
 
+  li {
+    width: 180px;
+    font-size: 16px;
+    padding-top: 12px;
+  }
 
+  h1 {
+    font-size: 18px;
+  }
+}
 
+/* Media Query for screens 370px and below */
+@media screen and (max-width: 370px) {
+  input {
+    width: 160px;
+    font-size: 12px;
+  }
+
+  button {
+    width: 65px;
+    height: 32px;
+    font-size: 10px;
+  }
+
+  li {
+    width: 160px;
+    font-size: 15px;
+    padding-top: 10px;
+  }
+
+  h1 {
+    font-size: 16px;
+  }
+}
